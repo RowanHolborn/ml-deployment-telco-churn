@@ -1,0 +1,10 @@
+# Virtual Environments
+.venv/*
+.env/*
+.env
+
+# Data
+data/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
