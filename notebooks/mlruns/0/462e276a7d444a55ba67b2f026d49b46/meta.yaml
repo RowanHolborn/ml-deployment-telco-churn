@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Python_projects/git/ml-deployment-telco-churn/notebooks/mlruns/0/462e276a7d444a55ba67b2f026d49b46/artifacts
+end_time: 1750344884208
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 462e276a7d444a55ba67b2f026d49b46
+run_name: adventurous-bird-752
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750344883742
+status: 4
+tags: []
+user_id: rowan

@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Python_projects/git/ml-deployment-telco-churn/notebooks/mlruns/0/models/m-a7b0d3658f804a6fa3e3ef6dd93de760/artifacts
+creation_timestamp: 1750344917243
+experiment_id: '0'
+last_updated_timestamp: 1750344919290
+model_id: m-a7b0d3658f804a6fa3e3ef6dd93de760
+model_type: null
+name: model
+source_run_id: dcaabeb119db43eb9c5ebd21064b2f1b
+status: 2
+status_message: null
