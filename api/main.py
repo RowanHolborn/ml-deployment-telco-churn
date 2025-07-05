@@ -3,7 +3,6 @@ from fastapi import FastAPI
 import mlflow.pyfunc
 import pandas as pd
 
-
 mlflow.set_tracking_uri(config.mlflow_tracking_uri)
 
 # Initialize FastAPI app and load the model
