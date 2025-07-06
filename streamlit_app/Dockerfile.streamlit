@@ -19,4 +19,5 @@ RUN pip install -r requirements.txt
 
 EXPOSE ${STREAMLIT_PORT}
 
-CMD ['python', '-m', 'streamlit', 'run', 'streamlit_app/app.py', '--server.port=${STREAMLIT_PORT}', '--server.address=${STREAMLIT_ADDRESS}']
+CMD ['python', '-m', 'streamlit', 'run', 'streamlit_app/app.py', \
+    '--server.port=${STREAMLIT_PORT}', '--server.address=${STREAMLIT_ADDRESS}']
