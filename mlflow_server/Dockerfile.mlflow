@@ -1,4 +1,8 @@
-FROM python:3.10-slim
+ARG PYTHON_IMAGE
+ARG MLFLOW_SERVER_PORT
+ARG MLFLOW_SERVER_ADDRESS
+
+FROM ${PYTHON_IMAGE}
 
 WORKDIR /app
 
@@ -9,5 +13,5 @@ EXPOSE 5000
 CMD ["mlflow", "server", \
      "--backend-store-uri", "file:/app/mlruns", \
      "--default-artifact-root", "file:/app/mlartifacts", \
-     "--host", "0.0.0.0", \
-     "--port", "5000"]
+     "--host", "${MLFLOW_SERVER_ADDRESS}", \
+     "--port", "${MLFLOW_SERVER_PORT}"]
