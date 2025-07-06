@@ -1,7 +1,7 @@
 aliases: {}
-creation_timestamp: 1750344908048
+creation_timestamp: 1751810506869
 deployment_job_id: null
 deployment_job_state: null
-description: null
-last_updated_timestamp: 1750344919299
+description: ''
+last_updated_timestamp: 1751810506886
 name: telco_churn_classifier

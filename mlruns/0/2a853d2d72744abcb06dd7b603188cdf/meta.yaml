@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/2a853d2d72744abcb06dd7b603188cdf/artifacts
+end_time: 1751810506960
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a853d2d72744abcb06dd7b603188cdf
+run_name: stately-snake-338
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751810501853
+status: 3
+tags: []
+user_id: rowan

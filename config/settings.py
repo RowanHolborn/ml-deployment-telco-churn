@@ -4,9 +4,9 @@ from typing import List
 
 class AppConfig(BaseSettings):
     model_name: str = 'telco_churn_classifier'
-    model_version: str = '2'
+    model_version: str = '1'
     model_stage: str = 'Staging'
-    mlflow_tracking_uri: str = 'file:/app/mlruns'
+    mlflow_tracking_uri: str = 'http://mlflow:5000'
     api_url: str = 'http://api:8000/predict'
 
     feature_columns: List[str] = [
