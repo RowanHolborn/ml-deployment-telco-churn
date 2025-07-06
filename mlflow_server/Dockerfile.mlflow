@@ -8,7 +8,7 @@ WORKDIR /app
 
 RUN pip install --no-cache-dir mlflow[extras]
 
-EXPOSE 5000
+EXPOSE ${MLFLOW_SERVER_PORT}
 
 CMD ["mlflow", "server", \
      "--backend-store-uri", "file:/app/mlruns", \
